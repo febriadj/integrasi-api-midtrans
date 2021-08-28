@@ -1,0 +1,35 @@
+{
+  "name": "integrasi-api-midtrans",
+  "version": "1.0.0",
+  "description": "integrasi api payment gateway midtrans",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/febriadj/integrasi-api-midtrans.git"
+  },
+  "keywords": [
+    "midtrans",
+    "payment-gateway"
+  ],
+  "author": "febriadji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/febriadj/integrasi-api-midtrans/issues"
+  },
+  "homepage": "https://github.com/febriadj/integrasi-api-midtrans#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "midtrans-client": "^1.2.4",
+    "ngrok": "^4.1.0"
+  }
+}
